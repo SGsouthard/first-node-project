@@ -6,7 +6,7 @@ function gameOver() {
     return "Good-bye Mario";
 }
 
-function oneUp(num1 + num2) {
+function oneUp(num1, num2) {
     return num1 + num2;
 }
 
@@ -33,7 +33,7 @@ class Character {
 
 module.exports = {
     hello: itsAMe,
-    goodbye: gameOver
+    goodbye: gameOver,
     add: oneUp,
     character: Character,
     person
